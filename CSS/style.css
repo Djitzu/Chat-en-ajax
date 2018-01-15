@@ -1,0 +1,42 @@
+body {
+    width: 70%;
+    margin: auto;
+    text-align: center
+}
+
+section {
+    background-color: #2A8EFF;
+    border-radius: 10px;
+    color: white;
+    line-height: 2em;
+    padding: 20px;
+}
+
+.date, .author {
+    font-weight: bold;
+}
+
+
+h1 {
+    color: #2A8EFF;
+    text-shadow: 2px 2px 2px black
+}
+
+form {
+    padding-top: 30px;
+}
+
+input {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#author {
+    max-width: 20%;
+}
+
+form input:last-of-type:hover {
+    background-color: red;
+    color: white;
+}
